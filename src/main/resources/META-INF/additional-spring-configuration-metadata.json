@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "orgName",
+    "type": "java.lang.String",
+    "description": "A description for 'orgName'"
+  },
+  {
+    "name": "affiliation",
+    "type": "java.lang.String",
+    "description": "A description for 'affiliation'"
+  },
+  {
+    "name": "mspId",
+    "type": "java.lang.String",
+    "description": "A description for 'mspId'"
+  },
+  {
+    "name": "orgType",
+    "type": "java.lang.String",
+    "description": "A description for 'orgType'"
+  }
+]}
