@@ -37,7 +37,7 @@ public class AdminRegistrationService {
 		Response registerResponse = new Response("500", "Server Error");
 			// Create a CA client for interacting with the CA.
 			Properties props = new Properties();
-			props.put("pemFile", "../../../fabric-samples/test-network/organizations/peerOrganizations/"
+			props.put("pemFile", "../fabric-samples/test-network/organizations/peerOrganizations/"
 					+ organisationDao.getCertificatePath());
 			props.put("allowAllHostNames", "true");
 			HFCAClient caClient = HFCAClient.createNewInstance("https://localhost:7054", props);

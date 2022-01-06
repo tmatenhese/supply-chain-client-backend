@@ -40,7 +40,7 @@ public class ProductService {
 		Path walletPath = Paths.get("wallet");
 		Wallet wallet = Wallets.newFileSystemWallet(walletPath);
 		// load a CCP
-		Path networkConfigPath = Paths.get("..","..", "..","fabric-samples","test-network", "organizations", "peerOrganizations", organisationDao.getOrganisation(), organisationDao.getConnectionFile());
+		Path networkConfigPath = Paths.get("..","fabric-samples","test-network", "organizations", "peerOrganizations", organisationDao.getOrganisation(), organisationDao.getConnectionFile());
 
 		Gateway.Builder builder = Gateway.createBuilder();
 		builder.identity(wallet, userDao.getClientUserName()).networkConfig(networkConfigPath).discovery(true);
@@ -69,7 +69,7 @@ public class ProductService {
 			Path walletPath = Paths.get("wallet");
 			Wallet wallet = Wallets.newFileSystemWallet(walletPath);
 			// load a CCP
-			Path networkConfigPath = Paths.get("..","..", "..","fabric-samples","test-network", "organizations", "peerOrganizations", organisationDao.getOrganisation(), organisationDao.getConnectionFile());
+			Path networkConfigPath = Paths.get("..","fabric-samples","test-network", "organizations", "peerOrganizations", organisationDao.getOrganisation(), organisationDao.getConnectionFile());
 
 			Gateway.Builder builder = Gateway.createBuilder();
 			builder.identity(wallet, userDao.getClientUserName()).networkConfig(networkConfigPath).discovery(true);
@@ -99,7 +99,7 @@ public class ProductService {
 			Path walletPath = Paths.get("wallet");
 			Wallet wallet = Wallets.newFileSystemWallet(walletPath);
 			// load a CCP
-			Path networkConfigPath = Paths.get("..","..", "..","fabric-samples","test-network", "organizations", "peerOrganizations", organisationDao.getOrganisation(), organisationDao.getConnectionFile());
+			Path networkConfigPath = Paths.get("..","fabric-samples","test-network", "organizations", "peerOrganizations", organisationDao.getOrganisation(), organisationDao.getConnectionFile());
 
 			Gateway.Builder builder = Gateway.createBuilder();
 			builder.identity(wallet, userDao.getClientUserName()).networkConfig(networkConfigPath).discovery(true);
@@ -131,7 +131,7 @@ public class ProductService {
 			Path walletPath = Paths.get("wallet");
 			Wallet wallet = Wallets.newFileSystemWallet(walletPath);
 			// load a CCP
-			Path networkConfigPath = Paths.get("..","..", "..","fabric-samples","test-network", "organizations", "peerOrganizations", organisationDao.getOrganisation(), organisationDao.getConnectionFile());
+			Path networkConfigPath = Paths.get("..","fabric-samples","test-network", "organizations", "peerOrganizations", organisationDao.getOrganisation(), organisationDao.getConnectionFile());
 
 			Gateway.Builder builder = Gateway.createBuilder();
 			builder.identity(wallet, userDao.getClientUserName()).networkConfig(networkConfigPath).discovery(true);
@@ -160,7 +160,7 @@ public class ProductService {
 			Path walletPath = Paths.get("wallet");
 			Wallet wallet = Wallets.newFileSystemWallet(walletPath);
 			// load a CCP
-			Path networkConfigPath = Paths.get("..","..", "..","fabric-samples","test-network", "organizations", "peerOrganizations", organisationDao.getOrganisation(), organisationDao.getConnectionFile());
+			Path networkConfigPath = Paths.get("..","fabric-samples","test-network", "organizations", "peerOrganizations", organisationDao.getOrganisation(), organisationDao.getConnectionFile());
 
 			Gateway.Builder builder = Gateway.createBuilder();
 			builder.identity(wallet, userDao.getClientUserName()).networkConfig(networkConfigPath).discovery(true);
